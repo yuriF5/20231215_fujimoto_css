@@ -1,0 +1,59 @@
+body{
+    width: 1500px;
+}
+
+.header{
+    display: flex;
+    font-weight: bold;
+}
+
+h1{
+    margin: 30px;
+}
+
+nav{
+    margin: 20px 0 0 auto;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2{
+    position: absolute;
+    top: 350px;
+    font-size: 90px;
+    font-family: 'Gorditas', serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Serif JP', serif;
+}
+
+.relative {
+    position: relative;
+    top: 450px;
+}
+
+.blue-box {
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(22, 7, 101);
+}
+
+.img {
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+.img img{
+    height: 500px;
+}
